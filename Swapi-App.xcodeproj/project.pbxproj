@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		701AA5779FCE9CF75EE07E86 /* libPods-Swapi-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3531C00CC4EC5D70B38248 /* libPods-Swapi-App.a */; };
 		DA9401A31AC77C0300726F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9401A21AC77C0300726F4E /* AppDelegate.swift */; };
-		DA9401A51AC77C0300726F4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9401A41AC77C0300726F4E /* ViewController.swift */; };
 		DA9401A81AC77C0300726F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9401A61AC77C0300726F4E /* Main.storyboard */; };
 		DA9401AA1AC77C0300726F4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9401A91AC77C0300726F4E /* Images.xcassets */; };
 		DA9401AD1AC77C0300726F4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9401AB1AC77C0300726F4E /* LaunchScreen.xib */; };
@@ -33,7 +32,6 @@
 		DA94019D1AC77C0300726F4E /* Swapi-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swapi-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9401A11AC77C0300726F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA9401A21AC77C0300726F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA9401A41AC77C0300726F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA9401A71AC77C0300726F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA9401A91AC77C0300726F4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DA9401AC1AC77C0300726F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				DA9401A21AC77C0300726F4E /* AppDelegate.swift */,
-				DA9401A41AC77C0300726F4E /* ViewController.swift */,
 				DA9401A61AC77C0300726F4E /* Main.storyboard */,
 				DA9401A91AC77C0300726F4E /* Images.xcassets */,
 				DA9401AB1AC77C0300726F4E /* LaunchScreen.xib */,
@@ -273,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9401A51AC77C0300726F4E /* ViewController.swift in Sources */,
 				DA9401A31AC77C0300726F4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
