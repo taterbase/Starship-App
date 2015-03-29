@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Swapi-App-Falcon.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Swapi-App-ISO8601DateFormatter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Swapi-App-Mantle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Swapi-App.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0152C2DD744023C8C4C2FA9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5297004138AC0009DD9AC4D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5762F82848B3730E1C4F2E69</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5CDEC6DBEF2179C51D80B12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
