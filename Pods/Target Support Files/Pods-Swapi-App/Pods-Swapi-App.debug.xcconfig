@@ -1,6 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = "$PODS_FRAMEWORK_BUILD_PATH"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Falcon" "${PODS_ROOT}/Headers/Public/ISO8601DateFormatter" "${PODS_ROOT}/Headers/Public/Mantle"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Falcon" -isystem "${PODS_ROOT}/Headers/Public/ISO8601DateFormatter" -isystem "${PODS_ROOT}/Headers/Public/Mantle"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-Swapi-App-Falcon" -l"Pods-Swapi-App-ISO8601DateFormatter" -l"Pods-Swapi-App-Mantle" -framework "Foundation"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_FRAMEWORK_BUILD_PATH/Alamofire.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/Argo.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/Runes.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Alamofire" -framework "Argo" -framework "Runes"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Swapi-App
 PODS_ROOT = ${SRCROOT}/Pods

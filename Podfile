@@ -2,5 +2,7 @@
 # platform :ios, '6.0'
 
 target 'Swapi-App' do
-  pod 'Falcon', '~> 0.1'
+  use_frameworks!
+  pod 'Alamofire', '~> 1.1'
+  pod 'Argo', '0.3.4'
 end

@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Swapi-App-Falcon.xcscheme</key>
+		<key>Pods-Swapi-App-Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Swapi-App-ISO8601DateFormatter.xcscheme</key>
+		<key>Pods-Swapi-App-Argo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Swapi-App-Mantle.xcscheme</key>
+		<key>Pods-Swapi-App-Runes.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0152C2DD744023C8C4C2FA9C</key>
+		<key>7435B1BF7E20492AC2C0B36B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5297004138AC0009DD9AC4D5</key>
+		<key>B5B46968BF391785D618CC1D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5762F82848B3730E1C4F2E69</key>
+		<key>B780C4F2B30C450F2269F531</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D5CDEC6DBEF2179C51D80B12</key>
+		<key>D8F5B73DE10B0458796E298B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

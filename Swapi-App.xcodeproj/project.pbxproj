@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		701AA5779FCE9CF75EE07E86 /* libPods-Swapi-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3531C00CC4EC5D70B38248 /* libPods-Swapi-App.a */; };
+		A5B18EF84BECCCBBA658A99B /* Pods_Swapi_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99276C73413EC84210B9F18E /* Pods_Swapi_App.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DA9401A31AC77C0300726F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9401A21AC77C0300726F4E /* AppDelegate.swift */; };
 		DA9401A81AC77C0300726F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9401A61AC77C0300726F4E /* Main.storyboard */; };
 		DA9401AA1AC77C0300726F4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9401A91AC77C0300726F4E /* Images.xcassets */; };
 		DA9401AD1AC77C0300726F4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9401AB1AC77C0300726F4E /* LaunchScreen.xib */; };
 		DA9401B91AC77C0300726F4E /* Swapi_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9401B81AC77C0300726F4E /* Swapi_AppTests.swift */; };
+		DAA1FA971AC8995300E53945 /* StarshipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1FA961AC8995300E53945 /* StarshipTableViewController.swift */; };
+		DAA1FA991AC89E0D00E53945 /* SWAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1FA981AC89E0D00E53945 /* SWAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +29,7 @@
 
 /* Begin PBXFileReference section */
 		40359BD3C3DE0CB069B73F5C /* Pods-Swapi-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapi-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swapi-App/Pods-Swapi-App.debug.xcconfig"; sourceTree = "<group>"; };
-		7C3531C00CC4EC5D70B38248 /* libPods-Swapi-App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swapi-App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA30E3161AC77D8500C662B6 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		99276C73413EC84210B9F18E /* Pods_Swapi_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swapi_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA94019D1AC77C0300726F4E /* Swapi-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swapi-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9401A11AC77C0300726F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA9401A21AC77C0300726F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +39,8 @@
 		DA9401B21AC77C0300726F4E /* Swapi-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swapi-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9401B71AC77C0300726F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA9401B81AC77C0300726F4E /* Swapi_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swapi_AppTests.swift; sourceTree = "<group>"; };
+		DAA1FA961AC8995300E53945 /* StarshipTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipTableViewController.swift; sourceTree = "<group>"; };
+		DAA1FA981AC89E0D00E53945 /* SWAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWAPI.swift; sourceTree = "<group>"; };
 		EF041848E3C087E1F2B6557E /* Pods-Swapi-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swapi-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swapi-App/Pods-Swapi-App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701AA5779FCE9CF75EE07E86 /* libPods-Swapi-App.a in Frameworks */,
+				A5B18EF84BECCCBBA658A99B /* Pods_Swapi_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +75,7 @@
 		91EFDFEDD6A259BAC76CEC28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C3531C00CC4EC5D70B38248 /* libPods-Swapi-App.a */,
+				99276C73413EC84210B9F18E /* Pods_Swapi_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -101,11 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				DA9401A21AC77C0300726F4E /* AppDelegate.swift */,
+				DAA1FA961AC8995300E53945 /* StarshipTableViewController.swift */,
 				DA9401A61AC77C0300726F4E /* Main.storyboard */,
 				DA9401A91AC77C0300726F4E /* Images.xcassets */,
 				DA9401AB1AC77C0300726F4E /* LaunchScreen.xib */,
 				DA9401A01AC77C0300726F4E /* Supporting Files */,
-				DA30E3161AC77D8500C662B6 /* Bridge.h */,
+				DAA1FA981AC89E0D00E53945 /* SWAPI.swift */,
 			);
 			path = "Swapi-App";
 			sourceTree = "<group>";
@@ -147,6 +151,7 @@
 				DA94019A1AC77C0300726F4E /* Frameworks */,
 				DA94019B1AC77C0300726F4E /* Resources */,
 				8CA5B382AF9934872AB0A549 /* Copy Pods Resources */,
+				6954E2C7A7D8EF3A52204BAA /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +253,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		6954E2C7A7D8EF3A52204BAA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swapi-App/Pods-Swapi-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8CA5B382AF9934872AB0A549 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9401A31AC77C0300726F4E /* AppDelegate.swift in Sources */,
+				DAA1FA991AC89E0D00E53945 /* SWAPI.swift in Sources */,
+				DAA1FA971AC8995300E53945 /* StarshipTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +419,7 @@
 				INFOPLIST_FILE = "Swapi-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Swapi-App/Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -409,7 +431,7 @@
 				INFOPLIST_FILE = "Swapi-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Swapi-App/Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

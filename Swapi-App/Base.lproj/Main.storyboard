@@ -7,7 +7,7 @@
         <!--Starships-->
         <scene sceneID="j0q-ij-fAY">
             <objects>
-                <tableViewController id="m88-u5-3jJ" sceneMemberID="viewController">
+                <tableViewController id="m88-u5-3jJ" customClass="StartshipTableViewController" customModule="Swapi_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Weu-05-8Uk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

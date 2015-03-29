@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B780C4F2B30C450F2269F531"
-               BuildableName = "Pods_Swapi_App.framework"
-               BlueprintName = "Pods-Swapi-App"
+               BlueprintIdentifier = "B5B46968BF391785D618CC1D"
+               BuildableName = "Argo.framework"
+               BlueprintName = "Pods-Swapi-App-Argo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -1,18 +1,16 @@
 PODS:
-  - Falcon (0.1.0):
-    - ISO8601DateFormatter (~> 0.7)
-    - Mantle (~> 1.5)
-  - ISO8601DateFormatter (0.7)
-  - Mantle (1.5.4):
-    - Mantle/extobjc (= 1.5.4)
-  - Mantle/extobjc (1.5.4)
+  - Alamofire (1.1.4)
+  - Argo (0.3.4):
+    - Runes (~> 1.1.2)
+  - Runes (1.1.2)
 
 DEPENDENCIES:
-  - Falcon (~> 0.1)
+  - Alamofire (~> 1.1)
+  - Argo (= 0.3.4)
 
 SPEC CHECKSUMS:
-  Falcon: bb8f1ebde8605f946f61dd6bd3277108a794ba9b
-  ISO8601DateFormatter: 59731cd880cf87e71b4fa95f0d6b713dcbc4cbce
-  Mantle: d5fbaf30fbc58031223af13812c060e15934a1fe
+  Alamofire: 6a2cbaebe78a6d469bc55ee37f0a24ba22af76ac
+  Argo: cd7cd4bbf3ecb3bffb85e83a624ae0217f60dc34
+  Runes: 3cca80c2bc4ba02b14e180dc67e814ab38d6a2e4
 
 COCOAPODS: 0.36.0

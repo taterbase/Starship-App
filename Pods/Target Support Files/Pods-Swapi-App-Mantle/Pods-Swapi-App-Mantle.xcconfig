@@ -1,1 +1,0 @@
-PODS_SWAPI_APP_MANTLE_OTHER_LDFLAGS = -framework "Foundation"

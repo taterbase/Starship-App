@@ -6,27 +6,21 @@
 // project.
 
 
-// Falcon
-#define COCOAPODS_POD_AVAILABLE_Falcon
-#define COCOAPODS_VERSION_MAJOR_Falcon 0
-#define COCOAPODS_VERSION_MINOR_Falcon 1
-#define COCOAPODS_VERSION_PATCH_Falcon 0
+// Alamofire
+#define COCOAPODS_POD_AVAILABLE_Alamofire
+#define COCOAPODS_VERSION_MAJOR_Alamofire 1
+#define COCOAPODS_VERSION_MINOR_Alamofire 1
+#define COCOAPODS_VERSION_PATCH_Alamofire 4
 
-// ISO8601DateFormatter
-#define COCOAPODS_POD_AVAILABLE_ISO8601DateFormatter
-#define COCOAPODS_VERSION_MAJOR_ISO8601DateFormatter 0
-#define COCOAPODS_VERSION_MINOR_ISO8601DateFormatter 7
-#define COCOAPODS_VERSION_PATCH_ISO8601DateFormatter 0
+// Argo
+#define COCOAPODS_POD_AVAILABLE_Argo
+#define COCOAPODS_VERSION_MAJOR_Argo 0
+#define COCOAPODS_VERSION_MINOR_Argo 3
+#define COCOAPODS_VERSION_PATCH_Argo 4
 
-// Mantle
-#define COCOAPODS_POD_AVAILABLE_Mantle
-#define COCOAPODS_VERSION_MAJOR_Mantle 1
-#define COCOAPODS_VERSION_MINOR_Mantle 5
-#define COCOAPODS_VERSION_PATCH_Mantle 4
-
-// Mantle/extobjc
-#define COCOAPODS_POD_AVAILABLE_Mantle_extobjc
-#define COCOAPODS_VERSION_MAJOR_Mantle_extobjc 1
-#define COCOAPODS_VERSION_MINOR_Mantle_extobjc 5
-#define COCOAPODS_VERSION_PATCH_Mantle_extobjc 4
+// Runes
+#define COCOAPODS_POD_AVAILABLE_Runes
+#define COCOAPODS_VERSION_MAJOR_Runes 1
+#define COCOAPODS_VERSION_MINOR_Runes 1
+#define COCOAPODS_VERSION_PATCH_Runes 2
 

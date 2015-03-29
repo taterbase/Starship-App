@@ -1,1 +1,0 @@
-../../../Falcon/Pod/Classes/SWQuery.h
